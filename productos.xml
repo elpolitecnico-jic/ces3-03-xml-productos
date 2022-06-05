@@ -1,2 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<productos></productos>
+
+<!DOCTYPE productos SYSTEM "productos.dtd">
+<productos>
+    <producto>
+        <raton>
+            <codigo>001</codigo>
+            <nombre>Raton 1</nombre>
+        </raton>
+    </producto>
+    <producto>
+        <teclado>
+            <codigo>002</codigo>
+            <descripcion>Mecanico</descripcion>
+        </teclado>
+    </producto>
+    <producto>
+        <monitor>
+            <codigo>003</codigo>
+            <nombre>Monitor 1024</nombre>
+        </monitor>
+    </producto>
+</productos>
